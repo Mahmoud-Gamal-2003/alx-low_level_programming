@@ -1,8 +1,8 @@
-#include "main.h"
+#include "kasiye.h"
 /**
- * puts2 - print strings
- * @str:function parameter
- * Return: 0
+ * puts2 - prints strings, followed by a new line,
+ * @str: pointer to the string to print
+ * Return: void
  */
 
 void puts2(char *str)
