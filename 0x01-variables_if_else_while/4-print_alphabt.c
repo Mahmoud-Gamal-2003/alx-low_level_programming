@@ -10,9 +10,9 @@
 
 int main(void)
 {
-char ch = 'a';
+char ch = '`';
 /*print a - z*/
-while (ch <= 'z')
+while (ch < 'z')
 {
 ch++;
 if (ch == 'e' || ch == 'q')
