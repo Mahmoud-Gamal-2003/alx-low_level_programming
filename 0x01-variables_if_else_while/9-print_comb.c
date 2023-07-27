@@ -20,10 +20,6 @@ if (digit < 57)
 putchar(',');
 putchar(' ');
 }
-else if (digit == 57)
-{
-putchar('$');
-}
 digit++;
 }
 
