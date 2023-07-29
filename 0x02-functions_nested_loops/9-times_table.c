@@ -30,10 +30,6 @@ _putchar(',');
 if (((k / 10) + 48) != 48)
 _putchar((k / 10) + 48);
 _putchar((k % 10) + 48);
-if (j == 9)
-{
-_putchar('$');
-}
 }
 _putchar('\n');
 }
