@@ -18,14 +18,14 @@ for (j = 0; j < 10; j++)
 k = i * j;
 if (j != 0 && k < 10)
 {
-_putchar(' ');
-_putchar(' ');
 _putchar(',');
+_putchar(' ');
+_putchar(' ');
 }
 else if (k >= 10)
 {
-_putchar(' ');
 _putchar(',');
+_putchar(' ');
 }
 if (((k / 10) + 48) != 48)
 _putchar((k / 10) + 48);
