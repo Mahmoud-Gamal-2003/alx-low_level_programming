@@ -7,20 +7,19 @@
  */
 int main(void)
 {
-int i;
-
 unsigned long f1 = 0, f2 = 1, sum;
-for (i = 0; i < 50; i++)
+float total_sum;
+
+while (1)
 {
 sum = f1 + f2;
-if (sum % 2 == 0)
-printf("%lu", sum);
+if (sum > 4000000)
+break;
+if ((sum % 2) == 0)
+total_sum += sum
 f1 = f2;
 f2 = sum;
-if (i == 49)
-printf("\n");
-else
-printf(", ");
 }
+printf("%.0f\n", total_sum);
 return (0);
 }
