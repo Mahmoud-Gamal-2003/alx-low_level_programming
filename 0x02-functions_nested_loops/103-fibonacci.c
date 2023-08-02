@@ -16,7 +16,7 @@ sum = f1 + f2;
 if (sum > 4000000)
 break;
 if ((sum % 2) == 0)
-total_sum += sum
+total_sum += sum;
 f1 = f2;
 f2 = sum;
 }
