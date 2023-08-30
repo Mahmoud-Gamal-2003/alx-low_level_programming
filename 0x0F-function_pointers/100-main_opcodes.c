@@ -1,6 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "function_pointers.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * main - check if a number is equal to 98
@@ -23,4 +23,4 @@ int main(int argc, char **argv)
 	while (b--)
 		printf("%02hhx%s", *p++, b ? " " : "\n");
 	return (0);
-
+}
