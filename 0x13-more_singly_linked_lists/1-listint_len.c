@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * list_len - delt
+ * listint_len - delt
  * @h: pointer
  *
  * Return: iszel
  */
-size_t list_len(const list_h *h)
+size_t listint_len(const listint_h *h)
 {
 	size_t i = 0;
 
